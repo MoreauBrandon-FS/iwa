@@ -1,0 +1,116 @@
+/* Exercise CSS Box Model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.35rem;
+  background-color: #06c;
+}
+#wrapper {
+  width: 98%;
+  border: 0.313rem solid black;
+  margin: auto;
+  padding: 1.5rem;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30rem;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  color: blanchedalmond;
+  background-color: maroon;
+  width: 15.625rem;
+  padding: 0.625rem;
+  border: 0.125rem solid blanchedalmond;
+  margin: auto;
+  box-shadow: 0.625rem 0.938rem 0.625rem maroon;
+  text-shadow: 0.25rem 0.25rem 0.25rem black;
+  border-radius: 1.5rem;
+}
+h2 {
+  text-align: center;
+  color: blanchedalmond;
+  background-color: maroon;
+  width: 10rem;
+  padding: 0.625rem;
+  border: 0.125rem solid blanchedalmond;
+  margin: auto;
+  text-shadow: 0.25rem 0.25rem 0.25rem black;
+  border-radius: 1rem;
+}
+h3 {
+  text-align: center;
+  color: blanchedalmond;
+  background-color: maroon;
+  width: 7.5rem;
+  border: 0.125rem solid black;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+/* Paragraph Styling */
+p {
+  text-align: right;
+  line-height: 1.325rem;
+  color: blanchedalmond;
+  border: 0.25rem solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  padding: 1rem;
+  text-shadow: 0.25rem 0.25rem 0.25rem black;
+  box-shadow: 0.313rem 0.313rem 0.313rem blanchedalmond;
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+a:hover {
+  color: firebrick;
+}
+
+ul {
+  list-style: none;
+  color: blanchedalmond;
+  padding: 0rem;
+  gap: 1rem;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+li {
+  border: 3px solid maroon;
+  background-color: black;
+  border-radius: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: right;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: auto;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+}
+/* Another Way to Refit Image? */
+#img2 {
+  width: 15rem;
+  height: 25rem;
+}

@@ -1,0 +1,139 @@
+/* Alternative CSS Box Model */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+}
+
+#wrapper {
+  width: 95%;
+  border: 5px solid olive;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+.about-heading {
+  color: magenta;
+}
+
+h1 {
+  text-align: center;
+  color: #990000;
+  background-color: pink;
+  width: 18.75rem;
+  padding: 10px;
+  border: 2px solid firebrick;
+  margin: 1.25rem auto;
+  box-shadow: 10px 10px 10px orangered;
+  text-shadow: 0.5rem 0.5rem 0.5rem white;
+  border-radius: 1rem;
+}
+p {
+  text-align: right;
+}
+p {
+  line-height: 1.25;
+}
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: brown;
+}
+/* List Styles */
+ul {
+  list-style: none;
+  border: 4px solid grey;
+  padding: 0rem;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 4rem; */
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+}
+ol {
+  list-style: upper-alpha;
+  color: chocolate;
+}
+
+li {
+  border: 2px solid firebrick;
+  flex: 1;
+}
+
+/* Form Styles */
+form {
+  border: 2px solid blue;
+  padding: 1rem;
+  background-color: blanchedalmond;
+}
+
+form > div {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+input,
+textarea {
+  display: block;
+  width: 35%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: inherit;
+  border: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+#form-check > label {
+  display: inline-block;
+}
+
+input[type="number"] {
+  width: 10%;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+form > button {
+  background-color: cornflowerblue;
+  color: ghostwhite;
+  border: none;
+  padding: 0.375rem 1rem;
+  border-radius: 0.75rem;
+  /* font-size: 1rem; */
+  cursor: pointer;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+#search button {
+  cursor: pointer;
+  background-color: coral;
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}
+
+#search input {
+  font-size: 85%;
+}

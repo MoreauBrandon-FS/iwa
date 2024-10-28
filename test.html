@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CSS Properties" />
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="css/alt.css" />
+    <title>CSS Properties</title>
+    <style>
+      /* Internal Style Sheet */
+      h2 {
+        color: indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <form
+          role="search"
+          id="search"
+          action="https://www.google.com/search"
+          method="get"
+        >
+          <div>
+            <input
+              type="search"
+              required
+              placeholder="Search"
+              aria-label="Search Site"
+              name="q"
+            />
+            <button type="submit">Search</button>
+          </div>
+        </form>
+        <!-- <form>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div id="form-check">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">Stay Logged In</label>
+          </div>
+           <input type="submit" value="Login" />
+          <button type="submit">Login</button>
+        </form> -->
+        <h1 class="about-heading">Bill's Bookstore</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <header>
+          <!-- Inline Styling -->
+          <h2 style="color: orangered">Article Title</h2>
+        </header>
+        <p>
+          <strong>Lorem ipsum</strong> dolor sit amet consectetur, adipisicing
+          elit. Vel modi recusandae eveniet at mollitia reiciendis libero rerum!
+          <em>Illo doloremque</em>
+          minus laboriosam natus, dolorem magni ullam accusantium quasi
+          molestiae doloribus maiores.
+        </p>
+        <section>
+          <h2>Introduction</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+            quas cupiditate qui mollitia temporibus minima tempore, quo dolor!
+            Reprehenderit inventore possimus dignissimos omnis incidunt quis
+            excepturi earum! Illo blanditiis aliquid laudantium distinctio omnis
+            perferendis quisquam mollitia, ipsum neque. Nulla deserunt aut, ex
+            aspernatur illo doloremque eaque in possimus totam.
+          </p>
+        </section>
+        <section>
+          <h2 id="about">About</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+            accusantium autem ut, recusandae asperiores veritatis obcaecati
+            molestias quasi error rem nemo qui aut quo animi amet vitae dicta
+            saepe enim voluptate! Veniam commodi quos maiores impedit non?
+            Sapiente voluptatum distinctio, quae expedita veritatis excepturi
+            aperiam numquam pariatur nemo magni quisquam provident optio
+            voluptas deserunt rem suscipit nostrum. Cum provident hic autem,
+            labore rerum eius aspernatur sunt officiis excepturi at molestiae ea
+            expedita iure, quibusdam perferendis.
+          </p>
+        </section>
+        <section>
+          <h2 id="shop">Shop</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            tenetur esse, quasi reiciendis iure ipsum assumenda dignissimos unde
+            aperiam sit eos molestias nam adipisci, voluptate ut repellendus
+            obcaecati eligendi consectetur. Alias atque officiis explicabo
+            fugiat ab aliquam dolores, ducimus iusto cupiditate quo inventore
+            quas modi libero vitae! Eligendi reiciendis nostrum tenetur
+            laudantium, ea aperiam. Ad corrupti asperiores sint quos, tenetur
+            quidem corporis sunt dolores consectetur labore! Distinctio unde
+            aliquid, cumque commodi dicta reiciendis odio autem consequatur illo
+            perspiciatis ex error voluptatem earum molestiae ipsam, impedit quis
+            libero sint ad? Exercitationem!
+          </p>
+        </section>
+        <section>
+          <h2 id="contact">Contact</h2>
+          <form>
+            <div>
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                required
+                minlength="1"
+                maxlength="26"
+              />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" id="age" min="1" max="115" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" cols="30" rows="10" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>copyright Bill's Bookstore</p>
+      </footer>
+    </div>
+    <script src="js/test.js"></script>
+  </body>
+</html>
