@@ -19,7 +19,7 @@ header {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  gap: 30rem;
+  gap: 20rem;
 }
 
 /* Header Styling */
@@ -45,6 +45,7 @@ h2 {
   margin: auto;
   text-shadow: 0.25rem 0.25rem 0.25rem black;
   border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 h3 {
   text-align: center;
@@ -114,3 +115,57 @@ img {
   width: 15rem;
   height: 25rem;
 }
+
+/* Form Styling */
+form {
+  /* border: 1px solid black; */
+  padding: 1.5rem;
+  background-color: maroon;
+  border-radius: 1rem;
+  box-shadow: 0.75rem 0.75rem 0.75rem black;
+  width: 50%;
+  color: blanchedalmond;
+}
+form > div {
+  margin-bottom: 1.5rem;
+}
+
+form > button {
+  border: none;
+  background-color: blanchedalmond;
+  color: maroon;
+  padding: 0.375rem 0.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  font-size: 1.615rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+button:hover {
+  background-color: maroon;
+  color: blanchedalmond;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: blanchedalmond;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+/* Needed? */
+/* #check > label {
+  display: inline-block;
+} */
